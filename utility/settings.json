@@ -1,0 +1,36 @@
+{
+	"editor.wordWrap": "on",
+	"editor.wordWrapColumn": 150,
+	"prettier.printWidth": 600,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.semi": false,
+	"prettier.bracketSpacing": false,
+	"prettier.proseWrap": "never",
+	"prettier.bracketSameLine": true,
+	"prettier.useEditorConfig": false,
+	"html.format.wrapLineLength": 600,
+	"html.format.unformatted": "a, meta, link, iframe, img, header, input, textarea, select, option, label, source",
+	"html.format.maxPreserveNewLines": 1,
+	"html.format.extraLiners": "",
+	"beautify.config": {
+		"wrap_attributes": false
+	},
+	"[html]": {
+		"editor.defaultFormatter": "HookyQR.beautify"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.CustomBrowser": "chrome",
+	"workbench.startupEditor": "none",
+	"editor.snippetSuggestions": "top",
+	"editor.formatOnSave": true,
+	"editor.cursorBlinking": "expand",
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.inlineSuggest.enabled": true
+}

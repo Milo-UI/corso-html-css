@@ -1,0 +1,45 @@
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../sfondo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.testo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 23%;
+    text-align: center
+}
+
+.container-testi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding-left: 16%;
+}
+
+.testo2 {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+.testo3 {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 1rem;
+    background-color: #ffffcc;
+}
+
+h1, h2 {
+    color: #990000;
+}
+
+strong, .titolo-semplice {
+    color: green;
+}
+
+.enfasi {
+    color: orange;
+}
+
+.importante {
+    padding: 1rem;
+    background-color: #cecece;
+}
+
+a {
+    color: #990000;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #cccccc;
+}
+
+a:hover {
+    color: white;
+    background-color: red;
+}
+
+.red {
+    color: #990000;
+}
+
+ul {
+    list-style: circle;
+}

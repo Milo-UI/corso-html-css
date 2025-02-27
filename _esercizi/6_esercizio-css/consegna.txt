@@ -1,0 +1,11 @@
+Esercizio 6: CSS da pagina HTML
+Dato il file html presente nel materiale, impostare un CSS in modo da ottenere un aspetto il più possibile simile a quello dell'immagine allegata.
+Colori utilizzati:
+sfondo pagina: #ffffcc
+colore dei titoli: #990000
+colore titolo semplice e grassetto: green
+colore testo enfasi: orange
+colore sfondo paragrafo "importante": gray
+colore link non visitato: #990000
+colore link visitato: #cccccc (facoltativo)
+colore link in hover: white su sfondo red (facoltativo)

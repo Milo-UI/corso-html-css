@@ -1,0 +1,43 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    padding-top: 1rem;
+    background-color: #FC0;
+}
+
+nav img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: .5rem;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    background-color: #F90;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+}
+
+main {
+    padding: 2rem 1rem;
+    background-color: #EFEFEF;
+}
+
+footer {
+    padding: .5rem 1rem;
+    background-color: #3399CC;
+}
+
+footer p {
+    margin-bottom: 0;
+}

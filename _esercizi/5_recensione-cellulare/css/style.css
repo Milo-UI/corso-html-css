@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.float-right {
+    float: right;
+    padding-left: 1rem;
+}
+
+.float-left {
+    float: left;
+    padding-right: 1rem;
+}
+
+.voto {
+    display: inline-block;
+    width: auto;
+    color: #ffffff;
+    margin-bottom: 3rem;
+    padding: .5rem .75rem;
+    border-radius: .3rem;
+    background-color: #FEB139;
+}
+
+.lead {
+    font-size: 1.5rem;
+}
+
+.voto-finale {
+    font-size: 1.6rem;
+}
+
+.lead-img {
+    float: left;
+    padding-right: 1rem;
+    margin: 1rem 0;
+}
+
+.lead {
+    margin-top: 1rem;
+}
+
+.scheda-tecnica {
+    margin: 2rem 0;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    background-color: #C1F8CF;
+}
+
+.scheda-tecnica ul {
+    /* list-style: none; */
+    padding-left: 1rem;
+    column-count: 2;
+}

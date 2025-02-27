@@ -1,0 +1,18 @@
+Versione:4.4
+Software: TouchWiz
+Altro: Sensore di temperatura, sensore di umidità, air touch, sensore di battito cardiaco, lettore di impronte digitali
+Data di uscita: Aprile 2014
+Prezzo:699 €
+ CONNESSIONI
+Connettività mobile	si
+Modulo Telefonico	si
+Dual SIM	no
+Rete	LTE
+Velocità rete	150 Mbps
+Wi-Fi	a/ac/b/g/n
+Bluetooth	4.0
+NFC	si
+GPS	si
+Radio FM	no
+Uscita HDMI	no
+Uscita MHL	si

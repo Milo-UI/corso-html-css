@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Esercizio 8 - CD Album, tracklist e form per l'acquisto</title>
+		<link rel="stylesheet" href="css/reboot.css">
+		<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            
+            <div>
+                <h1>Abbey Road</h1>
+                <h2>The Beatles</h2>
+            </div>
+            
+            <div class="tracklist">
+                <div class="copertina">
+                    <img src="copertina.jpg" alt="">
+                </div>
+                
+                <ul class="tracks">
+                    <li><span class="track"><span class="track-num">1</span> Come Together</span>	<span class="track-dur">04:17</span></li>
+                    <li><span class="track"><span class="track-num">2</span> Something</span>	<span class="track-dur">03:03</span></li>
+                    <li><span class="track"><span class="track-num">3</span> Maxwell's Silver Hammer</span>	<span class="track-dur">03:27</span></li>
+                    <li><span class="track"><span class="track-num">4</span> Oh! Darling</span>	<span class="track-dur">03:27</span></li>
+                    <li><span class="track"><span class="track-num">5</span> Octopus's Garden</span>	<span class="track-dur">02:51</span></li>
+                    <li><span class="track"><span class="track-num">6</span> I Want You (She's So Heavy)</span>	<span class="track-dur">07:47</span></li>
+                    <li><span class="track"><span class="track-num">7</span> Here Comes the Sun</span>	<span class="track-dur">03:07</span></li>
+                    <li><span class="track"><span class="track-num">8</span> Because</span>	<span class="track-dur">02:46</span></li>
+                    <li><span class="track"><span class="track-num">9</span> You Never Give Me Your Money</span>	<span class="track-dur">04:02</span></li>
+                    <li><span class="track"><span class="track-num">10</span> Sun King</span>	<span class="track-dur">02:26</span></li>
+                    <li><span class="track"><span class="track-num">11</span> Mean Mr. Mustard</span>	<span class="track-dur">01:06</span></li>
+                    <li><span class="track"><span class="track-num">12</span> Polythene Pam</span>	<span class="track-dur">01:13</span></li>
+                    <li><span class="track"><span class="track-num">13</span> She Came In Through the Bathroom Window</span>	<span class="track-dur">01:58</span></li>
+                    <li><span class="track"><span class="track-num">14</span> Golden Slumbers</span>	<span class="track-dur">01:32</span></li>
+                    <li><span class="track"><span class="track-num">15</span> Carry That Weight</span>	<span class="track-dur">01:37</span></li>
+                    <li><span class="track"><span class="track-num">16</span> The End</span>	<span class="track-dur">02:20</span></li>
+                    <li><span class="track"><span class="track-num">17</span> Her Majesty</span>	<span class="track-dur">00:23</span></li>
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="recensione">
+                <h3>Recensione</h3>
+
+                <div class="rating">
+                    <img src="star.png" alt="">
+                    <img src="star.png" alt="">
+                    <img src="star.png" alt="">
+                    <img src="star.png" alt="">
+                    <img src="star.png" alt="">
+                </div>
+                
+                <p>
+                    “Abbey Road” sarà il penultimo album dei Beatles, l’ultimo con George Martin alla produzione, del quale, nonostante le numerose sperimentazioni, si sentirà sempre la mano nelle orchestre che accompagnano soprattutto i brani melodici, che nel repertorio dei Beatles non sono pochi.
+                </p>
+
+                <p>
+                    I medley di “Abbey Road”, una sorta di suite, rappresenteranno uno dei punti più alti a livello artistico della loro carriera: i brani presi da soli forse potrebbero sembrare non troppo differenti dalle numerose canzoni pop che hanno fatto dei Beatles una band di successo, ma la forza di questo album è la visione d’insieme che lo rende decisamente migliore rispetto a quella che sarebbe potuta essere una semplice raccolta di brani, oltre naturalmente alla costante presenza di pezzi innovativi di stampo progressive. Un tardo capolavoro di una band in via di scioglimento, che passerà il testimone l’anno dopo a nuovi gruppi e nuove maniere di fare musica.
+                </p>
+            </div>
+
+            <form>
+                <div class="radio-group">
+                    <div>
+                        <input type="radio" id="cd" name="formato" value="cd" checked>
+                        <label for="cd">Acquista CD</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="mp3" name="formato" value="mp3">
+                        <label for="mp3">Acquista MP3</label>
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> È un regalo!</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="cognome">Cognome</label>
+                    <input type="text" name="cognome" id="cognome">
+                </div>
+
+                <div class="form-group">
+                    <label for="carta">Carta di credito</label>
+                    <input type="text" name="carta" id="carta">
+                </div>
+
+                <div class="button-group">
+                    <button type="submit">Acquista</button>
+                    <button type="reset">Cancella form</button>
+                </div>
+            </form>
+
+            <div class="clear"></div>
+            
+        </div>
+
+    </body>
+</html>

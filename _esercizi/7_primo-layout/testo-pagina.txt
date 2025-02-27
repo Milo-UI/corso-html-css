@@ -1,0 +1,19 @@
+VOCI DI MENU:
+HTML5 | IL W3C | VALIDATORE | CODICE CSS | FORMAZIONE | STORIA
+
+Blocco di testo principale
+
+L'HyperText Markup Language (HTML) (traduzione letterale: linguaggio a marcatori per ipertesti), in informatica è il linguaggio di markup solitamente usato per la formattazione di documenti ipertestuali disponibili nel World Wide Web sotto forma di pagine web.
+
+È un linguaggio di pubblico dominio, la cui sintassi è stabilita dal World Wide Web Consortium (W3C), e che è derivato da un altro linguaggio avente scopi più generici, l'SGML.
+
+L'HTML è stato sviluppato verso la fine degli anni ottanta del XX secolo da Tim Berners-Lee al CERN di Ginevra assieme al noto protocollo HTTP che supporta invece il trasferimento di documenti in tale formato. Verso il 1994 ha avuto una forte diffusione in seguito ai primi utilizzi commerciali del web.
+
+Titolo 2
+
+Nel corso degli anni, seguendo lo sviluppo di Internet, l'HTML ha subito molte revisioni, ampliamenti e miglioramenti, che sono stati indicati secondo la classica numerazione usata per descrivere le versioni dei software. Attualmente l'ultima versione disponibile è la versione 4.01, resa pubblica il 24 dicembre 1999. Dopo un periodo di sospensione, in cui il W3C si è focalizzato soprattutto sulle definizioni di XHTML (applicazione a HTML di regole e sintassi in stile XML) e dei fogli di stile (CSS), nel 2007 è ricominciata l'attività di specifica con la definizione, ancora in corso, di HTML5. Il W3C ha annunciato che la prima versione di tale standard sarà pronta per fine 2014[1] e l'html5.1 per il 2016[2][3][4]; la prima Candidate Recommendation venne pubblicata dal W3C il 17 dicembre 2012.
+
+Un'ulteriore ed importante caratteristica di HTML è che esso è stato concepito per definire il contenuto logico e non l'aspetto finale del documento. I dispositivi che possono accedere ad un documento HTML sono molteplici e non sempre dotati di potenti capacità grafiche. Proprio per questo gli sviluppatori di HTML hanno optato per un linguaggio che descrivesse dal punto di vista logico, piuttosto che grafico, il contenuto dei documenti. Questo significa che non esiste alcuna garanzia che uno stesso documento venga visualizzato in egual modo su due dispositivi. Se da una parte questo ha imposto in passato dei forti limiti agli sviluppatori di pagine Web, ha dall'altro garantito la massima diffusione di Internet ed evitato che essa diventasse un medium di élite.
+Attualmente i documenti HTML sono in grado di incorporare molte tecnologie, che offrono la possibilità di aggiungere al documento ipertestuale controlli più sofisticati sulla resa grafica, interazioni dinamiche con l'utente, animazioni interattive e contenuti multimediali. Si tratta di linguaggi come CSS, JavaScript e jQuery, XML, JSON, o di altre applicazioni multimediali di animazione vettoriale o di streaming audio o video.
+
+Al giorno d'oggi molti web designer delegano la scrittura del codice HTML ad applicazioni specifiche, come per esempio i cosiddetti editor WYSIWYG che permettono al designer di occuparsi dell'aspetto grafico finale della pagina mentre il codice vero e proprio viene generato automaticamente. Gli sviluppatori puri preferiscono invece utilizzare direttamente il codice HTML, in modo da avere un maggior controllo sul risultato finale e sulla pulizia del codice scritto, cosa che gli editor WYSIWYG odierni nonostante siano sempre più avanzati non possono sempre garantire, vuoi anche per la diversa resa dei browser sulle parti di codice HTML.

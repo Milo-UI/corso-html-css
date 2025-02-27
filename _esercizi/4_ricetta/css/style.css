@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #171c2a;
+    letter-spacing: .29px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+h1 {
+    color: #4e3969;
+    font-size: 2.88rem;
+}
+
+h2 {
+    font-size: 1.625rem;
+    font-weight: 500;
+    letter-spacing: .29px;
+    margin-bottom: 20px;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #f7972e;
+    margin-top: 10px;
+}
+
+img {
+    min-width: 100%;
+    height: auto;
+}
+
+.img-header {
+    display: block;
+    border-radius: .5rem;
+}
+
+.info-ricetta {
+    display: inline-block;
+    width: auto;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    list-style: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(33, 37, 41, .15) !important;
+}
+
+.intro-ricetta {
+    margin: 2rem 0;
+}
+
+.ingredienti {
+    width: 60%;
+    margin: 3rem 0;
+    padding: 30px;
+    background-color: #f6f5f3;
+    border-radius: 1rem;
+}
+
+.lista-ingredienti {
+    list-style: circle;
+    padding-left: 20px;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    margin-bottom: 30px;
+}
+
+.ingredienti-crema {
+    list-style: circle;
+    padding-left: 20px;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+}
+
+.lista-ingredienti li, 
+.ingredienti-crema li {
+    margin-bottom: .5rem;
+}
+
+.ingredienti h3 {
+    font-size: .875rem;
+    letter-spacing: 1px;
+    color: #978fa1;
+}
+
+.preparazione, .conservazione, .consiglio {
+    width: 50%;
+    padding: 1rem 0;
+}
+
+.preparazione img {
+
+    margin: 1rem 0;
+}
+
+.rif {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(247,150,46,.18);
+    color: #e28015;
+    font-size: .813rem;
+    font-weight: 600;
+    vertical-align: middle;
+    padding: 0 3px;
+}
