@@ -1,0 +1,158 @@
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+}
+
+.flex-container {
+	/* Per creare un container flex basta dargli display: flex */
+	display: flex;
+	background-color: #ebebeb;
+	border: 2px dashed #545454;
+}
+
+.flex-item {
+	height: 100px;
+	min-width: 100px;
+}
+
+.one {
+	background-color: #fa8072;
+}
+
+.two {
+	background-color: #72b4fa;
+}
+
+.three {
+	background-color: #72fa96;
+}
+
+.four {
+	background-color: #effa72;
+}
+
+.flex-container.direction {
+	/* flex-direction: row; */
+
+	flex-direction: row-reverse;
+
+	/* flex-direction: column; */
+
+	/* flex-direction: column-reverse; */
+}
+
+.flex-container.wrap {
+	gap: 0.5rem;
+
+	/* flex-wrap: nowrap; */
+
+	flex-wrap: wrap;
+
+	/* flex-wrap: wrap-reverse; */
+}
+
+.flex-container.wrap .flex-item {
+	min-width: 300px;
+	border-radius: 0.5rem;
+}
+
+.flex-container.just-start {
+	gap: 0.5rem;
+	justify-content: flex-start;
+}
+
+.flex-container.just-end {
+	gap: 0.5rem;
+	justify-content: flex-end;
+}
+
+.flex-container.just-center {
+	gap: 0.5rem;
+	justify-content: center;
+}
+
+.flex-container.just-between {
+	gap: 0.5rem;
+	justify-content: space-between;
+}
+
+.flex-container.just-around {
+	gap: 0.5rem;
+	justify-content: space-around;
+}
+
+.flex-container.just-evenly {
+	gap: 0.5rem;
+	justify-content: space-evenly;
+}
+
+.flex-container.align-stretch {
+	align-items: stretch;
+}
+
+.flex-container.align-start {
+	align-items: flex-start;
+}
+
+.flex-container.align-end {
+	align-items: flex-end;
+}
+
+.flex-container.align-center {
+	align-items: center;
+}
+
+.flex-container.align-baseline {
+	align-items: baseline;
+}
+
+.align-stretch .flex-item {
+	height: auto;
+}
+
+.align-stretch,
+.align-start,
+.align-end,
+.align-center,
+.align-baseline {
+	min-height: 350px;
+	gap: 0.5rem;
+}
+
+.align-stretch .flex-item,
+.align-start .flex-item,
+.align-end .flex-item,
+.align-center .flex-item,
+.align-baseline .flex-item {
+	flex-grow: 1;
+}
+
+.align-start .one,
+.align-end .one,
+.align-center .one,
+.align-baseline .one {
+	min-height: 150px;
+}
+
+.align-start .two,
+.align-end .two,
+.align-center .two,
+.align-baseline .two {
+	min-height: 300px;
+}
+
+.align-start .three,
+.align-end .three,
+.align-center .three,
+.align-baseline .three {
+	min-height: 80px;
+}
+
+.align-start .four,
+.align-end .four,
+.align-center .four,
+.align-baseline .four {
+	min-height: 200px;
+}

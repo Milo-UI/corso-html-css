@@ -1,0 +1,88 @@
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+}
+
+.flex-container {
+	/* Per creare un container flex basta dargli display: flex */
+	display: flex;
+	background-color: #ebebeb;
+	border: 2px dashed #545454;
+}
+
+.flex-item {
+	height: 100px;
+	min-width: 100px;
+}
+
+.one {
+	background-color: #fa8072;
+}
+
+.two {
+	background-color: #72b4fa;
+}
+
+.three {
+	background-color: #72fa96;
+}
+
+.four {
+	background-color: #effa72;
+}
+
+.flex-container.order .two {
+	order: -1;
+}
+
+/* .flex-container.order .one {
+	order: 1;
+} */
+
+.flex-container.grow {
+	margin-bottom: 2rem;
+}
+
+.flex-container.grow .flex-item {
+	flex-grow: 1;
+}
+
+.flex-container.grow-2 .flex-item {
+	flex-grow: 1;
+}
+
+.flex-container.grow-2 .two {
+	flex-grow: 2;
+}
+
+.flex-container.align-self {
+	align-items: flex-start;
+}
+
+.align-self {
+	min-height: 350px;
+	gap: 0.5rem;
+}
+
+.align-self .flex-item {
+	flex-grow: 1;
+}
+
+.align-self .one {
+	min-height: 150px;
+}
+
+.align-self .two {
+	min-height: 300px;
+}
+
+.align-self .three {
+	min-height: 80px;
+	align-self: flex-end;
+}
+
+.align-self .four {
+	min-height: 200px;
+}
