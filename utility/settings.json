@@ -1,36 +1,58 @@
 {
+	"editor.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.wordWrap": "on",
-	"editor.wordWrapColumn": 150,
+	"editor.accessibilitySupport": "off",
+
+	// "editor.wordWrapColumn": 150,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+
+	"editor.tabSize": 4,
+	"editor.insertSpaces": true,
+
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 4
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 4
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 4
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 4
+	},
+
+	"html.format.wrapLineLength": 600,
+	"html.format.unformatted": "a, meta, link, iframe, img, header, input, textarea, select, option, label, source",
+	"html.format.maxPreserveNewLines": 1,
+	"html.format.extraLiners": "",
+
 	"prettier.printWidth": 600,
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
-	"prettier.jsxSingleQuote": true,
 	"prettier.semi": false,
 	"prettier.bracketSpacing": false,
 	"prettier.proseWrap": "never",
 	"prettier.bracketSameLine": true,
 	"prettier.useEditorConfig": false,
-	"html.format.wrapLineLength": 600,
-	"html.format.unformatted": "a, meta, link, iframe, img, header, input, textarea, select, option, label, source",
-	"html.format.maxPreserveNewLines": 1,
-	"html.format.extraLiners": "",
-	"beautify.config": {
-		"wrap_attributes": false
-	},
-	"[html]": {
-		"editor.defaultFormatter": "HookyQR.beautify"
-	},
-	"[css]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.CustomBrowser": "chrome",
-	"workbench.startupEditor": "none",
+	"liveServer.settings.donotVerifyTags": true,
+
+	"window.zoomLevel": 1,
+
 	"editor.snippetSuggestions": "top",
-	"editor.formatOnSave": true,
 	"editor.cursorBlinking": "expand",
-	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.bracketPairColorization.enabled": true,
-	"editor.inlineSuggest.enabled": true
+	"editor.inlineSuggest.enabled": true,
+	"editor.stickyScroll.enabled": false,
+	"editor.detectIndentation": false
 }
